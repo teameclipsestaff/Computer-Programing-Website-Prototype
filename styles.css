@@ -21,7 +21,7 @@ header .wrapper{
   grid-template-columns: 1fr 2fr;
 }
 header .wrapper .logo-container{
-padding: 10px;
+padding: 20px;
 }
 header .wrapper .logo-container img{
   
