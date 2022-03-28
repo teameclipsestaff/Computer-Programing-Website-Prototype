@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+  position: relative;
+  height: 100;
+  background-color: #000000;
+}
+header .wrapper{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+header .wrapper .logo-container{
+padding: 10px;
+}
+header .wrapper .logo-container img{
+  
+}
+header .wrapper .logo-container h1{
+  color: #ffffff;
+}
+header .wrapper .nav-container{
+position: relative;
+padding-top: 2.5rem;
+flex: 1;
+}
+header .wrapper .nav-container ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+header .wrapper .nav-container ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Main */
+
+main .hero{
+  position: relative;
+  height: 100vh;
+}
+main .hero .spotlight{
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  background: linear-gradient(148.91deg, #FFFF00 43.7%, rgba(255, 255, 255, 0.994845) 68.49%, rgba(255, 255, 255, 0.994845) 69.41%, rgba(255, 255, 255, 0.0104167) 78.96%, rgba(255, 255, 255, 0) 78.96%);
+  width: 215px;
+  height: 215px;
+  border-radius: 50%;
+  z-index: 998;
+}
+main .hero .wrapper{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main .hero .wrapper .cta{
+  padding-top: 7rem;
+  z-index: 999;
+}
+main .hero .wrapper .cta button{
+  padding: 7px;
+  border: 0px;
+  background-color:#000000;
+  color: #ffffff;
+  border-radius: 10px;
+}
+main .hero .wrapper .hero-image{
+  text-align: center;
+}
+main .hero .wrapper .hero-image img{
+  width: 10rem;
+  height: 20rem;
+  transform: rotate(270deg);
+}
+
+/* Footer */
+footer {
+position: relative;
+height: 100px;
+background-color: #000000;
+}
+footer .wrapper{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2rem;
+}
+footer .wrapper p{
+  color: #ffffff;
+}
+footer .wrapper ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+footer .wrapper ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
