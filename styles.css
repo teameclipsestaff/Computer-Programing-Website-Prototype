@@ -21,7 +21,6 @@ header .wrapper{
   grid-template-columns: 1fr 2fr;
 }
 header .wrapper .logo-container{
-padding-top: 2.5rem;
 }
 header .wrapper .logo-container img{
  width: 100%; 
