@@ -23,7 +23,7 @@ header .wrapper{
 header .wrapper .logo-container{
 }
 header .wrapper .logo-container img{
- width: 100%; 
+ width: 5rem;
 }
 header .wrapper .logo-container h1{
   color: #ffffff;
