@@ -1,0 +1,1 @@
+gsap.to(".nav-container", { duration: 2.5, ease: "bounce.out", y: -500 });
