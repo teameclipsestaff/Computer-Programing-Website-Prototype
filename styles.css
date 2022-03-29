@@ -90,6 +90,11 @@ main .hero .wrapper .cta button{
 main .hero .wrapper .hero-image{
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+  main .hero .wrapper .hero-image{
+    display: none;
+  }
+}
 main .hero .wrapper .hero-image img{
   width: 10rem;
   height: 20rem;
