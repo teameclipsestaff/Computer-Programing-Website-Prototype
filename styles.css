@@ -127,6 +127,11 @@ footer .wrapper ul{
   display: flex;
   justify-content: space-between;
 }
+@media only screen and (max-width: 600px) {
+  footer .wrapper ul{
+    flex-direction: column;
+  }
+}
 footer .wrapper ul li a{
   text-decoration: none;
   color: #ffffff;
