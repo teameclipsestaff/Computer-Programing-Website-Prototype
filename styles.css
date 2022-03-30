@@ -81,6 +81,7 @@ header .wrapper .nav-container ul li a{
 main .hero{
   position: relative;
   height: 100vh;
+  background-image: url("tv-static.gif");
 }
 main .hero .spotlight{
   position: absolute;
