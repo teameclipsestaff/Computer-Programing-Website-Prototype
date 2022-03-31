@@ -209,12 +209,13 @@ footer .wrapper ul li a{
     display: block;
     background-color: #000000;
     bottom: 5px;
-    width: 150px;
+    width: 0px;
+    transition: 0.5s ease-in-out;
     min-height: 100px;
     padding-top: 10px;
   }
   .mob-menu .mob-menu-container.show{
-    background-color: aqua;
+    width: 150px;
   }
   .mob-menu .mob-menu-container ul{
     list-style: none;
