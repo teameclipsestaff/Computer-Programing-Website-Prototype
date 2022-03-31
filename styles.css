@@ -200,8 +200,37 @@ footer .wrapper ul li a{
     position: fixed;
     height: auto;
     width: auto;
+    bottom: 2em;
+    left: 1em;
+    margin: auto;
+  }
+  .mob-menu .mob-menu-container{
+    position: relative;
+    display: block;
     background-color: #000000;
-    bottom: 0;
-    left: 0;
+    bottom: 5px;
+    width: 150px;
+    min-height: 100px;
+    padding-top: 10px;
+  }
+  .mob-menu .mob-menu-container ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+  .mob-menu .mob-menu-icon{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 50%;
+  }
+  .mob-menu .mob-menu-icon .line{
+    height: 4px;
+    width: 30px;
+    background-color: #ffffff;
+    margin: 6px auto;
   }
 }
