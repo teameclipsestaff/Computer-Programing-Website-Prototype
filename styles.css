@@ -20,12 +20,6 @@ header .wrapper {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
-@media only screen and (max-width: 600px) {
-  header .wrapper {
-    grid-template-columns: 1fr; 
-    /* Remove if content is added to right of logo */
-  }
-}
 header .wrapper .hamburger {
   display: none;
 }
