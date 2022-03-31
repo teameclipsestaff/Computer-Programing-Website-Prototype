@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{
+* {
   margin: 0;
   box-sizing: border-box;
 }
-body{
+body {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -14,34 +14,34 @@ header {
   height: 100;
   background-color: #000000;
 }
-header .wrapper{
+header .wrapper {
   width: 95%;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
-header .wrapper .hamburger{
+header .wrapper .hamburger {
   display: none;
 }
 @media only screen and (max-width: 600px) {
-  header .wrapper .hamburger{
+  header .wrapper .hamburger {
     display: block;
   }
 }
-header .wrapper .logo-container{
+header .wrapper .logo-container {
 }
-header .wrapper .logo-container img{
- width: 15rem;
+header .wrapper .logo-container img {
+  width: 15rem;
 }
-header .wrapper .logo-container h1{
+header .wrapper .logo-container h1 {
   color: #ffffff;
 }
-header .wrapper .nav-container{
-position: relative;
-padding-top: 2.5rem;
+header .wrapper .nav-container {
+  position: relative;
+  padding-top: 2.5rem;
 }
 @media only screen and (max-width: 600px) {
-  header .wrapper .nav-container{
+  header .wrapper .nav-container {
     display: none;
     background-color: #000000;
     position: fixed;
@@ -52,24 +52,24 @@ padding-top: 2.5rem;
     z-index: 1000;
   }
 }
-header .wrapper .nav-container ul{
+header .wrapper .nav-container ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
 @media only screen and (max-width: 600px) {
-  header .wrapper .nav-container ul{
+  header .wrapper .nav-container ul {
     flex-direction: column;
     padding: 0;
     text-align: center;
   }
 }
-header .wrapper .nav-container ul li a{
+header .wrapper .nav-container ul li a {
   text-decoration: none;
   color: #ffffff;
 }
 @media only screen and (max-width: 600px) {
-  header .wrapper .nav-container ul li a{
+  header .wrapper .nav-container ul li a {
     font-size: 30px;
     line-height: 1.5;
   }
@@ -78,67 +78,74 @@ header .wrapper .nav-container ul li a{
 /* Main */
 
 /* Hero */
-main .hero{
+main .hero {
   position: relative;
   height: 100vh;
 }
-main .hero .spotlight{
+main .hero .spotlight {
   position: absolute;
   top: 5rem;
   left: 0;
-  background: linear-gradient(148.91deg, #FFFF00 43.7%, rgba(255, 255, 255, 0.994845) 68.49%, rgba(255, 255, 255, 0.994845) 69.41%, rgba(255, 255, 255, 0.0104167) 78.96%, rgba(255, 255, 255, 0) 78.96%);
+  background: linear-gradient(
+    148.91deg,
+    #ffff00 43.7%,
+    rgba(255, 255, 255, 0.994845) 68.49%,
+    rgba(255, 255, 255, 0.994845) 69.41%,
+    rgba(255, 255, 255, 0.0104167) 78.96%,
+    rgba(255, 255, 255, 0) 78.96%
+  );
   width: 215px;
   height: 215px;
   border-radius: 50%;
   z-index: 998;
 }
 @media only screen and (max-width: 600px) {
-  main .hero .spotlight{
+  main .hero .spotlight {
     display: none;
   }
 }
-main .hero .wrapper{
+main .hero .wrapper {
   width: 90%;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 @media only screen and (max-width: 600px) {
-  main .hero .wrapper{
+  main .hero .wrapper {
     grid-template-columns: 1fr;
     text-align: center;
   }
 }
-main .hero .wrapper .cta{
+main .hero .wrapper .cta {
   padding-top: 7rem;
   z-index: 999;
 }
-main .hero .wrapper .cta button{
+main .hero .wrapper .cta button {
   padding: 7px;
   border: 0px;
-  background-color:#000000;
+  background-color: #000000;
   color: #ffffff;
   border-radius: 10px;
 }
-main .hero .wrapper .hero-image{
+main .hero .wrapper .hero-image {
   text-align: center;
 }
 @media only screen and (max-width: 600px) {
-  main .hero .wrapper .hero-image{
+  main .hero .wrapper .hero-image {
     display: none;
   }
 }
-main .hero .wrapper .hero-image img{
+main .hero .wrapper .hero-image img {
   width: 10rem;
   height: 20rem;
   transform: rotate(270deg);
 }
 
-main .about{
+main .about {
   position: relative;
   height: 100vh;
 }
-main .about .wrapper{
+main .about .wrapper {
   width: 90%;
   margin: auto;
   display: grid;
@@ -147,9 +154,9 @@ main .about .wrapper{
 
 /* Footer */
 footer {
-position: relative;
-height: 100px;
-background-color: #000000;
+  position: relative;
+  height: 100px;
+  background-color: #000000;
 }
 @media only screen and (max-width: 600px) {
   footer {
@@ -157,7 +164,7 @@ background-color: #000000;
     height: auto;
   }
 }
-footer .wrapper{
+footer .wrapper {
   width: 90%;
   margin: auto;
   display: grid;
@@ -165,38 +172,32 @@ footer .wrapper{
   padding-top: 2rem;
 }
 @media only screen and (max-width: 600px) {
-  footer .wrapper{
+  footer .wrapper {
     grid-template-columns: 1fr;
     text-align: center;
   }
 }
-footer .wrapper p{
+footer .wrapper p {
   color: #ffffff;
 }
-footer .wrapper ul{
+footer .wrapper ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
 @media only screen and (max-width: 600px) {
-  footer .wrapper ul{
+  footer .wrapper ul {
     flex-direction: column;
     padding: 0;
   }
 }
-footer .wrapper ul li a{
+footer .wrapper ul li a {
   text-decoration: none;
   color: #ffffff;
 }
 
-
-
-
-
-
-
 @media only screen and (max-width: 600px) {
-  .mob-menu{
+  .mob-menu {
     position: fixed;
     height: auto;
     width: auto;
@@ -204,7 +205,7 @@ footer .wrapper ul li a{
     left: 1em;
     margin: auto;
   }
-  .mob-menu .mob-menu-container{
+  .mob-menu .mob-menu-container {
     position: relative;
     display: block;
     background-color: #000000;
@@ -214,20 +215,20 @@ footer .wrapper ul li a{
     min-height: 100px;
     padding-top: 10px;
   }
-  .mob-menu .mob-menu-container.show{
+  .mob-menu .mob-menu-container.show {
     width: 150px;
   }
-  .mob-menu .mob-menu-container ul{
+  .mob-menu .mob-menu-container ul {
     list-style: none;
     text-align: center;
     padding: 0;
   }
-  .mob-menu .mob-menu-container ul li a{
+  .mob-menu .mob-menu-container ul li a {
     text-decoration: none;
     color: #ffffff;
     line-height: 1.5;
   }
-  .mob-menu .mob-menu-icon{
+  .mob-menu .mob-menu-icon {
     height: 50px;
     width: 50px;
     display: inline-block;
@@ -236,20 +237,19 @@ footer .wrapper ul li a{
     background-color: #000000;
     border-radius: 50%;
   }
-  .mob-menu .mob-menu-icon .line{
+  .mob-menu .mob-menu-icon .line {
     height: 4px;
     width: 30px;
     background-color: #ffffff;
     margin: 6px auto;
     transition: 0.5s ease-in-out;
   }
-  .close .line-1{
+  .close .line-1 {
     opacity: 0;
   }
-  .close .line-2{
-    
+  .close .line-2 {
   }
-  .close .line-3{
+  .close .line-3 {
     opacity: 0;
   }
 }
