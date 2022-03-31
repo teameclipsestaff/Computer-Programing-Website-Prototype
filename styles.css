@@ -213,6 +213,9 @@ footer .wrapper ul li a{
     min-height: 100px;
     padding-top: 10px;
   }
+  .mob-menu .mob-menu-container.show{
+    background-color: aqua;
+  }
   .mob-menu .mob-menu-container ul{
     list-style: none;
     text-align: center;
