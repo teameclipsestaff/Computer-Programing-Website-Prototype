@@ -218,7 +218,6 @@ footer .wrapper ul li a {
     overflow-x: hidden;
   }
   .mob-menu .mob-menu-container.show {
-    opacity: 100;
     width: 150px;
   }
   .mob-menu .mob-menu-container ul {
