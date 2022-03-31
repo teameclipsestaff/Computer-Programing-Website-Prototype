@@ -241,5 +241,15 @@ footer .wrapper ul li a{
     width: 30px;
     background-color: #ffffff;
     margin: 6px auto;
+    transition: 0.5s ease-in-out;
+  }
+  .close .line-1{
+    opacity: 0;
+  }
+  .close .line-2{
+    
+  }
+  .close .line-3{
+    opacity: 0;
   }
 }
